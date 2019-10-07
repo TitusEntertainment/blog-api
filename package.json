@@ -1,0 +1,27 @@
+{
+  "name": "blog-api",
+  "version": "0.0.1",
+  "description": "An api built for my personal blog",
+  "main": "app.js",
+  "repository": "https://github.com/TitusEntertainment/blog-api.git",
+  "author": "TitusEntertainment <properllerbucher@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^12.7.11",
+    "nodemon": "^1.19.3",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "@ayana/logger": "^2.1.1",
+    "@types/express": "^4.17.1",
+    "@types/mongoose": "^5.5.19",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.8",
+    "mongoose": "^5.7.3",
+    "mongoose-timestamp": "^0.6.0"
+  }
+}
